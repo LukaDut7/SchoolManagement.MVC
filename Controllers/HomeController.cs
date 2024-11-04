@@ -1,8 +1,10 @@
 using System.Diagnostics;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using SchoolManagement.MVC.Models;
 
 namespace SchoolManagement.MVC.Controllers;
+[AllowAnonymous]
 
 public class HomeController : Controller
 {
